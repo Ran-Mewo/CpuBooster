@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id "com.github.johnrengelman.shadow" version "7.1.0"
+}
+
+group 'io.github.ran.cpubooster'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "com.profesorfalken:jPowerShell:3.1.1"
+}
+
+shadowJar {
+    classifier ""
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'io.github.ran.cpubooster.CpuBooster'
+    }
+}
+jar.finalizedBy(shadowJar)
