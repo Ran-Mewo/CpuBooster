@@ -20,6 +20,9 @@ public class CpuBooster {
                     balancedPowerID = line.split("\\s+")[3];
                 }
                 if (line.contains("Ultimate")) {
+                    if (ultimatePowerID == null) ultimatePowerID = line.split("\\s+")[3];
+                }
+                if (line.contains("Bitsum Highest Performance")) {
                     ultimatePowerID = line.split("\\s+")[3];
                 }
             }
