@@ -1,6 +1,5 @@
 So I made this because I have this annoying problem where my cpu is like at very low usage & my gpu is at normal usage
-It's basically a bottleneck but in reverse _I like to call it a neckbottle_
-
+It's basically a bottleneck but in reverse _I like to call it a neckbottle_\
 But I found out that changing the power plans fixes it for a few moments so this script keeps changing the power plan to basically remove this "neckbottle"
 
 ### 
