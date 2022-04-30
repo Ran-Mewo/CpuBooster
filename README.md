@@ -3,7 +3,7 @@ It's basically a bottleneck but in reverse _I like to call it a neckbottle_
 
 But I found out that changing the power plans fixes it for a few moments so this script keeps changing the power plan to basically remove this "neckbottle"
 
-###
+### 
 If you're having the same problem and want to use this then do note that you need to have the ultimate & balanced power plans unlocked
 or change line 20 & line 23 to your desired power plans
 
