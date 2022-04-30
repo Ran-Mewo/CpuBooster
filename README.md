@@ -4,7 +4,7 @@ But I found out that changing the power plans fixes it for a few moments so this
 
 ### 
 If you're having the same problem and want to use this then do note that you need to have the ultimate & balanced power plans unlocked
-or change line 20 & line 23 to your desired power plans
+or change line 19 & line 22 to your desired power plans
 
 Also if you want to launch this at startup then you can put the jar in your startup folder, you can find that folder by pressing **⊞ Win + R** and then typing **shell:startup**
 
